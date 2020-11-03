@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MyTrainingData</folder>
+	<filename>flir_20200822T131404_161.jpg</filename>
+	<path>/home/farstrider/TensorFlow/Data/MyTrainingData/flir_20200822T131404_161.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>367</xmin>
+			<ymin>118</ymin>
+			<xmax>424</xmax>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+</annotation>

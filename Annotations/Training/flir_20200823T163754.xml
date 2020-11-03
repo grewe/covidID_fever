@@ -1,0 +1,26 @@
+<annotation>
+	<folder>flirdata2</folder>
+	<filename>flir_20200823T163754.jpg</filename>
+	<path>C:\Users\lynne\Downloads\flirdata2\flir_20200823T163754.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>624</xmin>
+			<ymin>139</ymin>
+			<xmax>762</xmax>
+			<ymax>307</ymax>
+		</bndbox>
+	</object>
+</annotation>

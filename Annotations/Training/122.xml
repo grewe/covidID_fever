@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FLIR</folder>
+	<filename>122.jpg</filename>
+	<path>C:\Users\diksh\Desktop\FLIR\122.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>640</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>15</ymin>
+			<xmax>336</xmax>
+			<ymax>85</ymax>
+		</bndbox>
+	</object>
+</annotation>

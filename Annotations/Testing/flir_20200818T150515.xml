@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FLIROne</folder>
+	<filename>flir_20200818T150515.jpg</filename>
+	<path>C:\Users\STSC\Downloads\FLIROne\flir_20200818T150515.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>232</xmin>
+			<ymin>140</ymin>
+			<xmax>295</xmax>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+</annotation>
