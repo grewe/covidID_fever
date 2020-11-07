@@ -1,0 +1,18 @@
+# create training tfrecord for coco formatted annotation files (as in ADAS nosmallpeople training) - paths will need to be changed to your train image dir and train annotations filepath, same for validation below
+
+python create_coco_tf_record_2.py \
+  --train_image_dir=../FLIR_dataset/train/thermal_8_bit \
+  --train_annotations_filepath=train/adas_train_annotations_no_small_people.json \
+  --set=train \
+  --output_filepath=train/training_no_small_people.tfrecord\
+  --shuffle_imgs=True
+  
+  
+# create validation tfrecord  
+  
+python create_coco_tf_record_2.py \
+  --val_image_dir=../FLIR_dataset/val/thermal_8_bit \
+  --val_annotations_filepath=valid/adas_valid_annotations_no_small_people.json \
+  --set=val \
+  --output_filepath=valid/validation_no_small_people.tfrecord \
+  --shuffle_imgs=True
