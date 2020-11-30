@@ -1,0 +1,1 @@
+Directory for all files related to creation of IRFIS HeadDetector.  THis is an Efficient Det D0 model that is trained on Head labled IR images from FLIR ONE Pro Sensor.  This model was a retraining of the IRFIS Generic IR Detector. (see the coividID_fever/GenericIRDetector
