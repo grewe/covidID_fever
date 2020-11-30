@@ -1,0 +1,4 @@
+This directory is used to contain all of the files related to the training of the IRFIS (InfraRed Fever Indicator System)  Generic IR Detector which is the 
+retraining of a COCO trained RGB General Object Detecor with EfficientDet D0 architecture.   The Generic IR Detector is trained with a modified version (no small people)
+of the IR image ADAS dataset published by FLIR.   Specifically small detections of people are removed as we have much lower resoltion with our FLIR ONE PRO camera than
+the resolution of the ADAS dataset.   ALSO, the ADAS dataset has only 4 of the COCO classes (person, dog, car, bicycle)  
